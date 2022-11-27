@@ -4,8 +4,10 @@
   "description": "create an installable Node.js module package",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "type": "module",
+    "test": "node cli.js --sides 6 --dice 2 --rolls 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-namitak8.git"
